@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 메인</title>
+
+    <link rel="stylesheet" href="BoardMain.css">
+</head>
+
+<body>
+    <!-- Board 전체 div 영역 -->
+    <div class="all">
+
+        <!-- 게시판 Table 시작 -->
+        <table>
+
+            <!-- 제목 행 -->
+            <tr>
+                <th class="th_num">번호</th>
+                <th class="th_title">제목</th>
+                <th class="th_writer">작성자</th>
+                <th class="th_date">작성일</th>
+                <th class="th_hit">조회</th>
+            </tr>
+
+            <!-- 게시글 출력 영역 -->
+            <!-- c:forEach 시작 -->
+            <tr>
+                <td>1</td>
+                <td><a href="#1">게시글 제목 영역 입니다.</a></td>
+                <td>작성자</td>
+                <td>YYYY.MM.DD</td>
+                <td>0</td>
+            </tr>
+            <!-- c:forEach 끝 -->
+
+            <tr>
+                <td>2</td>
+                <td><a href="#2">게시글 제목 영역 입니다.</a></td>
+                <td>작성자</td>
+                <td>YYYY.MM.DD</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td><a href="#3">게시글 제목 영역 입니다.</a></td>
+                <td>작성자</td>
+                <td>YYYY.MM.DD</td>
+                <td>45</td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+</html>
