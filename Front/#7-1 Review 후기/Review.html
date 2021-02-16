@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Review.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <table>
+        <!-- 리뷰 작성 영역 -->
+        <tr>
+            <td class="review" colspan="2">
+                <textarea id="review_content" class="review_Text_Box" name="review_content" placeholder="리뷰를 작성해보세요! :)"></textarea>
+                <input type="button" id="writing_btn" class="writing_btn" value="작성">
+            </td>
+        </tr>
+
+        <!-- 리뷰 출력 영역 -->
+
+        <!-- c:forEach 시작 -->
+        <tr>
+            <td class="review_td">
+                <div id="review">
+                    리뷰 영역 입니다.<br>
+                    <p>작성자 : <input class="wirter_id" type="button" value="힊다혜"> / 작성일 : 2021-02-16</p>
+                </div>
+        </tr>
+        <!-- c:forEach 끝 -->
+
+        <tr>
+            <td class="review_td">
+                <div id="review">
+                    리뷰 영역 입니다.<br>
+                    <p>작성자 : <input class="wirter_id" type="button" value="노답이다혜"> / 작성일 : 2021-02-16</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
