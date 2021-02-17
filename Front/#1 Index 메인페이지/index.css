@@ -1,0 +1,211 @@
+html {
+    font-size: 62.5%;
+}
+
+
+/*  ---------- 메뉴 영역 ----------- */
+
+.top_menu_total_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    align-content: center;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+
+/* 로고 div */
+
+.top_menu_logo_area {
+    position: relative;
+    flex-shrink: 1;
+}
+
+
+/* 로고 이미지 */
+
+.top_menu_logo_img {
+    width: 90%;
+}
+
+
+/*  검색창 전체  */
+
+.top_menu_search_area {
+    max-width: 80rem;
+    height: 4.5rem;
+    width: 25rem;
+    border: 1px solid;
+    background: transparent;
+    border-color: #3ad4b3;
+    align-self: center;
+    border-radius: 20px;
+    flex-shrink: 2;
+    flex-grow: 1;
+    display: flex;
+    margin-right: 4rem;
+}
+
+
+/* 검색창 input */
+
+#top_search_input {
+    font-size: 1.6rem;
+    width: 20rem;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+    float: left;
+    border-radius: 20px;
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+    flex-shrink: 2;
+    flex-grow: 1;
+}
+
+
+/* 검색창 돋보기 아이콘 */
+
+#top_search_icon {
+    background-image: url("../img/main_search/search_icon.png");
+    background-position: center;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 3.8rem;
+    height: 3.8rem;
+    border: 0px;
+    margin-top: 0.1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+
+/*  게시판 전체  */
+
+.top_menu_board_area {
+    align-self: center;
+    flex-shrink: 1;
+}
+
+
+/* 게시판 영역 a태그들 */
+
+.top_menu_board_item {
+    flex: auto;
+    margin-right: 20px;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+
+/* 게시판 영역 이미지 */
+
+.top_menu_board_img {
+    width: 80px;
+    height: 80px;
+}
+
+
+/*  --------------- 배너 슬라이드---------------  */
+
+
+/*------------ 카테고리 ----------- */
+
+.main_category_container {
+    margin: 2vw 10vw 2vw 10vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center; */
+}
+
+.main_category_a {
+    width: 15vw;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main_category_img {
+    max-width: 17rem;
+    max-height: 20rem;
+    width: 6vw;
+    height: 8vh;
+}
+
+
+/* 카테고리 첫째 줄 */
+
+.main_category_group1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem 0 2rem 0;
+}
+
+
+/* 카테고리 둘째 줄 */
+
+.main_category_group2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem 0 2rem 0;
+}
+
+
+/* --------------- 상품 리스트 전체 영역 설정 --------------- */
+
+.main_product_list_container {
+    margin: 2vw 10vw 2vw 10vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.main_product_total_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* 상품 리스트 영역 별 설정 */
+
+.main_product_list {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+/* 리스트 사진 설정 */
+
+.main_product_img {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* 리스트 상품 설명 설정 */
+
+.main_product_content_a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* 리스트 상품 가격 설정 */
+
+.main_product_price_div span {
+    text-decoration: none;
+    color: rgb(207, 73, 73);
+    font-size: 2rem;
+}

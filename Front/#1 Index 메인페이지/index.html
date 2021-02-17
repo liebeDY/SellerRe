@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <!-- 
+        **** 클래스 명 ****
+        전체 영역 : container
+        부분 영역 : area
+
+        전체영역에 display : flex로 전체적인 화면 레이아웃 잡기
+        부분영역에 display : flex로 부분적인 화면 레이아웃 잡기
+
+        -->
+
+
+    <!-- top import -->
+    top 넣기
+    <!-- top 끝 -->
+
+    <!-- 메뉴 시작 -->
+    <div class="top_menu_total_container">
+
+        <!-- 로고 시작 -->
+        <div class="top_menu_logo_area">
+            <a href="" class="top_menu_logo_a">
+                <img src="img/main_logo/logo_1.png" alt="logo" class="top_menu_logo_img">
+            </a>
+        </div>
+
+        <!-- 검색창 -->
+        <div class="top_menu_search_area">
+            <input type="text" class="top_menu_search_input" id="top_search_input" placeholder="검색어를 입력하세요">
+            <input type="button" class="top_menu_search_input" id="top_search_icon">
+        </div>
+
+
+        <!-- 메뉴 게시판 아이콘 영역 -->
+        <div class="top_menu_board_area">
+
+            <!-- 게시판 링크 1 -->
+            <a href="#" class="top_menu_board_item">
+                <img src="img/main_board/b_1.png" alt="아이콘 사진" class="top_menu_board_img">
+            </a>
+
+            <!-- 게시판 링크 2 -->
+            <a href="#" class="top_menu_board_item">
+                <img src="img/main_board/b_2.png" alt="아이콘 사진" class="top_menu_board_img">
+            </a>
+
+            <!-- 게시판 링크 3 -->
+            <a href="#" class="top_menu_board_item">
+                <img src="img/main_board/b_3.png" alt="아이콘 사진" class="top_menu_board_img">
+            </a>
+        </div>
+
+    </div>
+    <!-- 메뉴 끝 -->
+
+
+    <!-- 배너 슬라이드 영역 시작 -->
+    <div class="main_banner_container">
+
+        <!-- 슬라이드 넣기 -->
+        <!-- 클래스 명은 편하대로 -->
+
+    </div>
+    <!-- 배너 슬라이드 끝 -->
+
+
+    <!-- 카테고리 영역 시작 -->
+    <div class="main_category_container">
+
+        <!-- 카테고리 10개 -->
+
+        <!-- 첫번째 줄 카테고리 5개 -->
+        <div class="main_category_group1">
+            <!-- 1 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/fashion.png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+
+            <!-- 2 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/high-heels.png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+
+            <!-- 3 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/lipstick.png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+
+            <!-- 4 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/baby.png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+
+            <!-- 5 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/food.png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+        </div>
+
+        <div class="main_category_group2">
+            <!-- 6 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/lipstick (1).png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+
+            <!-- 7 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/monitor.png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+
+            <!-- 8 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/sofa.png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+
+            <!-- 9 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/sports.png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+
+            <!-- 10 -->
+            <div class="main_category_div">
+                <a href="" class="main_category_a">
+                    <img src="img/category_icon/health.png" alt="categoryImg" class="main_category_img">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 카테고리 영역 끝 -->
+
+
+    <!-- 상품 리스트 출력 시작 -->
+    <!-- 전체 상품 div container 영역 -->
+    <div class="main_product_list_container">
+
+        <!-- 전체 상품 div area 영역
+            layout 잡는 영역  -->
+        <div class="main_product_total_area">
+
+            <!-- 첫번째 상품 div container-->
+            <div class="main_product_list">
+
+                <!-- 사진 1 -->
+                <div class="main_product_img_div">
+                    <a href="" class="main_product_img_a">
+                        <img src="img/main_product/박민영76.jpg" alt="" class="main_product_img">
+                    </a>
+                </div>
+
+                <!-- 상품 설명 1 -->
+                <div class="main_product_content_div">
+                    <a href="" class="main_product_content_a">
+                        <sapn>상품 설명이에용</sapn>
+                    </a>
+                </div>
+
+                <!-- 가격 1-->
+                <div class="main_product_price_div">
+                    <span>50000원</span>
+                </div>
+            </div>
+
+            <!-- 두번째 div container-->
+            <div class="main_product_list">
+
+                <!-- 사진 2 -->
+                <div class="main_product_img_div">
+                    <a href="" class="main_product_img_a">
+                        <img src="img/main_product/박민영71.jpg" alt="" class="main_product_img">
+                    </a>
+                </div>
+
+                <!-- 상품 설명 2-->
+                <div class="main_product_content_div">
+                    <a href="" class="main_product_content_a">
+                        <sapn>상품 설명이에용2</sapn>
+                    </a>
+                </div>
+
+                <!-- 가격 2-->
+                <div class="main_product_price_div">
+                    <span>20000원</span>
+                </div>
+            </div>
+
+            <!-- 세번쨰 div container-->
+            <div class="main_product_list">
+
+                <!-- 사진 3-->
+                <div class="main_product_img_div">
+                    <a href="" class="main_product_img_a">
+                        <img src="img/main_product/박민영73.jpg" alt="" class="main_product_img">
+                    </a>
+                </div>
+
+                <!-- 상품 설명 3-->
+                <div class="main_product_content_div">
+                    <a href="" class="main_product_content_a">
+                        <sapn>상품 설명이에용3</sapn>
+                    </a>
+                </div>
+
+                <!-- 가격 3-->
+                <div class="main_product_price_div">
+                    <span>55500원</span>
+                </div>
+            </div>
+
+            <!-- 네번쨰 div container-->
+            <div class="main_product_list">
+
+                <!-- 사진 4-->
+                <div class="main_product_img_div">
+                    <a href="" class="main_product_img_a">
+                        <img src="img/main_product/박민영84.jpg" alt="" class="main_product_img">
+                    </a>
+                </div>
+
+                <!-- 상품 설명 4-->
+                <div class="main_product_content_div">
+                    <a href="" class="main_product_content_a">
+                        <sapn>상품 설명이에용4</sapn>
+                    </a>
+                </div>
+
+                <!-- 가격 4-->
+                <div class="main_product_price_div">
+                    <span>55500원</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer 영역 -->
+    footer 넣기
+    <!-- footer 끝 -->
+</body>
+
+</html>
