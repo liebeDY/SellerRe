@@ -1,0 +1,26 @@
+html {
+	font-size: 62.5%;
+}
+
+.topbar_container {
+	border: 1px solid white;
+	background-color: #5DCDB4;
+	margin-bottom: 5rem;
+}
+
+ul {
+	font-size: 1.5rem;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+li {
+	margin: 0 1.5rem 0 1.5rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 2rem;
+}
