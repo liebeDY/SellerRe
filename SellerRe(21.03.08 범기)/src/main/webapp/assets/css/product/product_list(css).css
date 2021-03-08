@@ -1,0 +1,161 @@
+html { font-size: 62.5%; }
+
+
+
+/* 상품 리스트 컨테이너 */
+.product_list_container {
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-top : 3rem;
+    margin-bottom : 3rem;
+}
+
+/* 상품 이미지 영역 */
+.product_img_area {
+    /* border: 1px solid red; */
+}
+
+.wish_container {
+	display: flex;
+}
+
+.wish_count_area {
+	font-size: 2.5rem;
+	margin : 0 0 0 1rem;
+}
+
+/* 상품 리스트 이미지 크기 */
+.product_img {
+    width: 20rem;
+    height: 20rem;
+}
+
+/* 상품가격 및 삭제버튼 */
+.product_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 상품 설명 및 거래완료 버튼 */
+.product_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 상품 정보 영역 */
+.product_info_area {
+    /* border: 1px solid orange; */
+    width: 100%;
+    margin: 0 0 0 3rem;
+}
+
+.prod_detail_link {
+	text-decoration: none;
+	color: black;
+} 
+.prod_name {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* .user_id_area { */
+/*     text-decoration: none; */
+/*     color : black; */
+/* } */
+
+.prod_price {
+    font-size: 2.5rem;
+}
+
+.prod_info {
+    font-size: 2rem;
+}
+
+.prod_category {
+    font-size: 1.5rem;
+}
+
+/* 구분선 (hr) */
+hr {
+    margin: 5rem 0 5rem 0;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.product_price, 
+.product_info, .product_category {
+    margin: 1rem 0 1rem 0;
+}
+
+.list_container {
+	width : 70%;
+	margin-top : 10rem;
+	margin-bottom : 20rem;
+	margin-left : auto;
+	margin-right : auto;
+	text-align : center;
+	font-size: 2rem;
+}
+
+.product_name {
+    width: 79%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.delbtn, .tradebtn {
+    margin-right: 20rem;
+    font-size: 2rem;
+}
+
+
+/* 가격 검색 영역 컨테이너 */
+.price_search_container {
+    /* border: 1px solid black; */
+    width: 70%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+}
+
+.search_icon_container {
+    margin : 0 2rem 0 2rem;
+}
+
+.price_area {
+    font-size: 2rem;
+    margin: 0 2rem 0 0;
+}
+
+.search_input_container {
+    display: flex;
+}
+
+.and_price {
+    font-size: 2rem;
+    font-weight: 1000;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+.min, .max {
+    font-size: 2rem;
+}
+
+.search_btn {
+    margin: 0 0 0 2rem;
+    font-size: 2rem;
+}
